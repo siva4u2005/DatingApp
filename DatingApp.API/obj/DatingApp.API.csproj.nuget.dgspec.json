@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\siva\\Learning\\asp.net core\\datingapp\\datingapp.api\\DatingApp.API.csproj": {}
+    "C:\\siva\\Learning\\asp.net core\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {}
   },
   "projects": {
-    "C:\\siva\\Learning\\asp.net core\\datingapp\\datingapp.api\\DatingApp.API.csproj": {
+    "C:\\siva\\Learning\\asp.net core\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\siva\\Learning\\asp.net core\\datingapp\\datingapp.api\\DatingApp.API.csproj",
+        "projectUniqueName": "C:\\siva\\Learning\\asp.net core\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "C:\\siva\\Learning\\asp.net core\\datingapp\\datingapp.api\\DatingApp.API.csproj",
+        "projectPath": "C:\\siva\\Learning\\asp.net core\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
         "packagesPath": "C:\\Users\\sbalakrish54\\.nuget\\packages\\",
-        "outputPath": "C:\\siva\\Learning\\asp.net core\\datingapp\\datingapp.api\\obj\\",
+        "outputPath": "C:\\siva\\Learning\\asp.net core\\DatingApp\\DatingApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.0.0, )"
@@ -52,6 +56,14 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.6.0, )"
             }
           },
           "imports": [
