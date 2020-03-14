@@ -87,5 +87,8 @@
   },
   "rulesDirectory": [
     "codelyzer"
-  ]
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+}
 }
