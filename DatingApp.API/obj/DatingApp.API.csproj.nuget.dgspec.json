@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\siva\\Learning\\asp.net core\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {}
+    "c:\\siva\\Learning\\asp.net core\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {}
   },
   "projects": {
-    "C:\\siva\\Learning\\asp.net core\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {
+    "c:\\siva\\Learning\\asp.net core\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\siva\\Learning\\asp.net core\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "projectUniqueName": "c:\\siva\\Learning\\asp.net core\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "C:\\siva\\Learning\\asp.net core\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "projectPath": "c:\\siva\\Learning\\asp.net core\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
         "packagesPath": "C:\\Users\\sbalakrish54\\.nuget\\packages\\",
-        "outputPath": "C:\\siva\\Learning\\asp.net core\\DatingApp\\DatingApp.API\\obj\\",
+        "outputPath": "c:\\siva\\Learning\\asp.net core\\DatingApp\\DatingApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,7 +41,15 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[3.0.0, )"
             },
